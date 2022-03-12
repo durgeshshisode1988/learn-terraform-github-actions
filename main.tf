@@ -14,6 +14,7 @@ terraform {
   backend "remote" {
     organization = "ACG-Terraform-Demos-Durgesh"
 
+
     workspaces {
       name = "demo-github-actions-dur"
     }
